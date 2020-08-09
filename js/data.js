@@ -13,14 +13,14 @@ let photoGallery = [
         href: 'img/wetransfer-5c02d2/foto9.jpg',
         dataLightbox: 'groupz',
         class: 'img-responsive', 
-        id: 'thumbnailImage',
+        id: 'thumbnailImage1',
         pElement: 'Tiradito de ají amarillo plata y alcaparras'
     },
     {
         href: 'img/wetransfer-5c02d2/foto2.jpg',
         dataLightbox: 'groupz',
         class: 'img-responsive', 
-        id: 'thumbnailImage',
+        id: 'thumbnailImage2',
         pElement: 'Cebiche de pescado y pulpo con yuyo'
         
     },
@@ -28,42 +28,42 @@ let photoGallery = [
         href: 'img/wetransfer-5c02d2/foto3.jpg',
         dataLightbox: 'groupz',
         class: 'img-responsive', 
-        id: 'thumbnailImage',
+        id: 'thumbnailImage3',
         pElement: 'Leche al rocoto con langostinos y pulpo'
     },
     {
         href: 'img/wetransfer-5c02d2/foto4.jpg',
         dataLightbox: 'groupz',
         class: 'img-responsive', 
-        id: 'thumbnailImage',
+        id: 'thumbnailImage4',
         pElement: 'Chaufón mixto'
     },
     {
         href: 'img/wetransfer-5c02d2/foto5.jpg',
         dataLightbox: 'groupz',
         class: 'img-responsive', 
-        id: 'thumbnailImage',
+        id: 'thumbnailImage5',
         pElement: 'Causa de pescado'
     },
     {
         href: 'img/wetransfer-5c02d2/foto6.jpg',
         dataLightbox: 'groupz',
         class: 'img-responsive', 
-        id: 'thumbnailImage',
+        id: 'thumbnailImage6',
         pElement: 'Pulpo a la llama'
     },
     {
         href: 'img/wetransfer-5c02d2/foto7.jpg',
         dataLightbox: 'groupz',
         class: 'img-responsive', 
-        id: 'thumbnailImage',
+        id: 'thumbnailImage7',
         pElement: 'Tataki de atún'
     },
     {
         href: 'img/wetransfer-5c02d2/foto8.jpg',
         dataLightbox: 'groupz',
         class: 'img-responsive', 
-        id: 'thumbnailImage',
+        id: 'thumbnailImage8',
         pElement: 'Ciabatta con chicharrón de pescado'
     }
 ];

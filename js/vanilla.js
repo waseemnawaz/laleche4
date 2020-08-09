@@ -269,6 +269,9 @@ anything.innerHTML += anythingP;
 anything.innerHTML += anythingA;
 anything.innerHTML += anythingC;
 
+//give the phone element font weight of bold:
+document.getElementsByClassName('anything')[0].querySelector('a').style.fontWeight = "bold"
+
 //dosmapas section
 
 let dosmapas = document.querySelector('.dosmapas');
@@ -293,8 +296,10 @@ dosmapas.innerHTML += iframe1;
 //dosmapas.innerHTML += iframe2;
 //console.log(dosmapas.innerHTML);
 
-
-
+//phone number in dosmapas text decoration set to none, color black and font weight bold
+document.querySelector('#contactenos > div.dosmapas > p:nth-child(3) > a').style.textDecoration = "none";
+document.querySelector('#contactenos > div.dosmapas > p:nth-child(3) > a').style.color = "black";
+document.querySelector('#contactenos > div.dosmapas > p:nth-child(3) > a').style.fontWeight = "bold";
 //copyright
 //console.log('hello')
 console.log(new Date().getFullYear());
