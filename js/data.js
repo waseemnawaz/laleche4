@@ -88,14 +88,14 @@ let accordionData = [
     }, 
     {
         question: " Días y hora de apertura?",
-        reply: "De lunes a sábado de 9am a 4pm.",
+        reply: "De lunes a domingo de 10am a 4pm.",
         href: "#collapseThree", 
         divId: "collapseThree",
         divClass: "panel-collapse collapse"
     },
     {
-        question: " Hacen catering?",
-        reply: "Si hacemos catering, llámanos al 993490515.",
+        question: " Hacen catering, delivery y hay para llevar? Hay atención en terraza?",
+        reply: "Si todo eso hay, llámenos al 993490515.",
         href: "#collapseFour", 
         divId: "collapseFour",
         divClass: "panel-collapse collapse"

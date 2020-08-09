@@ -355,6 +355,10 @@ body {
  	 color: black;
  }
 
+ .img-responsive.social {
+	 margin-top: 3em;
+ }
+
 /*** Footer ***/
 
 .copyright {

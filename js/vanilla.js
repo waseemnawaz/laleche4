@@ -28,6 +28,7 @@ let navbar_brandImg = document.createElement('img');
 navbar_brandA.setAttribute('href', "#");
 navbar_brandImg.setAttribute('src', "img/wetransfer-5c02d2/La-Leche-transparente1.png");
 navbar_brandImg.setAttribute('class', "img-responsive");
+//navbar_brand.innerText = "La Leche"
 
 navbar_brandA.appendChild(navbar_brandImg);
 navbar_brand.appendChild(navbar_brandA);
@@ -258,7 +259,8 @@ createAccordion();
 //the facebook section
 
 let anything = document.querySelector('.anything');
-let anythingP = '<p>Nos puede llamar o mandar un mensaje por Whatsapp al número siguente: 993490515. Nos puede también contactar a través de Facebook o de Instagram:</p>';
+let anythingP = '<p>Nos puede llamar o mandar un mensaje por Whatsapp al número siguente: <a href="tel:993490515">993490515</a>. Nos puede también contactar a través de Facebook o de Instagram:</p>';
+//let anythingP = '<p>Nos puede llamar o mandar un mensaje por Whatsapp al número siguente: 993490515. Nos puede también contactar a través de Facebook o de Instagram:</p>';
 let anythingA = '<a href="https://www.facebook.com/LALECHECEBICHERIAPERUANA/?fref=ts" target="_blank"><img src="img/Attachments_2016614/iconfinder_Colored_Facebook.png" class="img-responsive social"></a>';
 let anythingC = '<a href="https://www.instagram.com/la_leche_cebicheria_peruana/?hl=en" target="_blank"><img src="img/Attachments_2016614/iconfinder_1_Instagram.png" class="img-responsive social"></a>';
 
@@ -271,9 +273,9 @@ anything.innerHTML += anythingC;
 
 let dosmapas = document.querySelector('.dosmapas');
 
-let p1 = '<p>Tenemos dos locales:</p>';
+let p1 = '<p>Nuestro local esta ubicado en:</p>';
 let p2 = '<p>Calle los Tulipanes 150 - Segundo Piso, Santiago de Surco, Lima.</p>';
-let p3 = '<p>Teléfono: 986 603 987</p>';
+let p3 = '<p>Teléfono: <a href="tel:993490515">993490515</a></p>';
 let iframe1 = '<iframe width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=CALLE%20LOS%20TULIPANES%20150%2C%20SANTIAGO%20DE%20SURCO%2C%20LIMA%20Tel%C3%A9fono&key=AIzaSyBUuaslfPXjsJ5UPl3XBecXcgl5AMgMnRw" allowfullscreen class="img responsive geo"></iframe>';
 //console.log(iframe1);
 
@@ -286,9 +288,9 @@ dosmapas.innerHTML += p1;
 dosmapas.innerHTML += p2;
 dosmapas.innerHTML += p3;
 dosmapas.innerHTML += iframe1; 
-dosmapas.innerHTML += p4;
-dosmapas.innerHTML += p5;
-dosmapas.innerHTML += iframe2;
+//dosmapas.innerHTML += p4;
+//dosmapas.innerHTML += p5;
+//dosmapas.innerHTML += iframe2;
 //console.log(dosmapas.innerHTML);
 
 
